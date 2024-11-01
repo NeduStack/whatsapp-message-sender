@@ -1,11 +1,19 @@
 # WhatsApp Message Sender
 A Python script that allows users to send WhatsApp messages to multiple contacts without needing to save the contacts on their phone. This script uses the pywhatkit library to facilitate message sending and can also handle PDF attachments for each contact.
 
-Features
+# Features
 Send unlimited WhatsApp messages to multiple contacts.
 Attach PDF files to messages.
 Works without saving phone numbers in contacts.
+
+# Disclaimer
+This script is for educational purposes only. Please use responsibly and avoid spamming or violating WhatsApp’s terms of service.
+
 Prerequisites
+Python 3.6+
+pywhatkit library
+
+# Prerequisites
 Python 3.6+
 pywhatkit library
 Installation
@@ -25,8 +33,9 @@ Run the Script: Update the script with your list of contacts and message, then r
 bash
 Copy code
 python whatsapp_sender.py
-Usage
-Prepare Contacts: Create a Word file with phone numbers you want to message.
+
+# Usage
+Prepare Contacts: Prepare contact in the formats used in the example.
 Modify Script: Update the script with the PDF file path and the contact list.
 Run Script: The script will open WhatsApp Web and send the messages automatically.
 Example
