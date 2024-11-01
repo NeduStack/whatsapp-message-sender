@@ -1,4 +1,4 @@
-WhatsApp Message Sender
+# WhatsApp Message Sender
 A Python script that allows users to send WhatsApp messages to multiple contacts without needing to save the contacts on their phone. This script uses the pywhatkit library to facilitate message sending and can also handle PDF attachments for each contact.
 
 Features
@@ -36,7 +36,8 @@ Copy code
 contacts = ["+1234567890", "+0987654321"]
 message = "Hello from WhatsApp Message Sender!"
 pywhatkit.sendwhatmsg_instantly(contacts[0], message)
-License
+
+# License
 This project is licensed under the MIT License.
 
 This README should help users understand and set up your project easily! Let me know if you'd like any additions.
